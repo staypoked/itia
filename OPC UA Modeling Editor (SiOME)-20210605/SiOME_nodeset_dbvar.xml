@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UANodeSet LastModified="2021-06-16T15:29:17.488Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <NamespaceUris>
+        <Uri>http://itia_target23</Uri>
+    </NamespaceUris>
+    <Models>
+        <Model ModelUri="http://itia_target23" PublicationDate="2021-06-09T00:00:00Z" Version="1.00">
+            <RequiredModel ModelUri="http://opcfoundation.org/UA/" PublicationDate="2020-07-15T00:00:00Z" Version="1.04.7"/>
+        </Model>
+    </Models>
+    <Aliases>
+        <Alias Alias="Boolean">i=1</Alias>
+        <Alias Alias="Byte">i=3</Alias>
+        <Alias Alias="DateTime">i=13</Alias>
+        <Alias Alias="String">i=12</Alias>
+        <Alias Alias="HasComponent">i=47</Alias>
+        <Alias Alias="HasProperty">i=46</Alias>
+        <Alias Alias="Organizes">i=35</Alias>
+        <Alias Alias="HasTypeDefinition">i=40</Alias>
+    </Aliases>
+    <Extensions>
+        <Extension>
+            <si:Generator Product="SiOME" Edition="Standard" Version="2.2.0"/>
+        </Extension>
+        <Extension>
+            <si:GeneratorExtension Hash="4fca35b82ab782a71495e2589316d248"/>
+        </Extension>
+    </Extensions>
+    <UAObject SymbolicName="http___itia_target23" NodeId="ns=1;i=5000" BrowseName="1:http://itia_target23" ParentNodeId="i=11715">
+        <DisplayName>http://itia_target23</DisplayName>
+        <References>
+            <Reference ReferenceType="HasComponent" IsForward="false">i=11715</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=11616</Reference>
+        </References>
+    </UAObject>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6000" BrowseName="IsNamespaceSubset" ParentNodeId="ns=1;i=5000">
+        <DisplayName>IsNamespaceSubset</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable DataType="DateTime" NodeId="ns=1;i=6001" BrowseName="NamespacePublicationDate" ParentNodeId="ns=1;i=5000">
+        <DisplayName>NamespacePublicationDate</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+        <Value>
+            <uax:DateTime>2021-06-09T00:00:00Z</uax:DateTime>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=6002" BrowseName="NamespaceUri" ParentNodeId="ns=1;i=5000">
+        <DisplayName>NamespaceUri</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+        <Value>
+            <uax:String>http://itia_target23</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=6003" BrowseName="NamespaceVersion" ParentNodeId="ns=1;i=5000">
+        <DisplayName>NamespaceVersion</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+        <Value>
+            <uax:String>1.00</uax:String>
+        </Value>
+    </UAVariable>
+    <UAVariable DataType="i=256" ValueRank="1" NodeId="ns=1;i=6004" ArrayDimensions="0" BrowseName="StaticNodeIdTypes" ParentNodeId="ns=1;i=5000">
+        <DisplayName>StaticNodeIdTypes</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable DataType="i=291" ValueRank="1" NodeId="ns=1;i=6005" ArrayDimensions="0" BrowseName="StaticNumericNodeIdRange" ParentNodeId="ns=1;i=5000">
+        <DisplayName>StaticNumericNodeIdRange</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable DataType="String" NodeId="ns=1;i=6006" BrowseName="StaticStringNodeIdPattern" ParentNodeId="ns=1;i=5000">
+        <DisplayName>StaticStringNodeIdPattern</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable DataType="i=96" ValueRank="1" NodeId="ns=1;i=6007" ArrayDimensions="0" BrowseName="DefaultRolePermissions" ParentNodeId="ns=1;i=5000">
+        <DisplayName>DefaultRolePermissions</DisplayName>
+        <References>
+            <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5000</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+        </References>
+    </UAVariable>
+    <UAObject NodeId="ns=1;i=5001" BrowseName="1:Station5" ParentNodeId="i=85">
+        <DisplayName>Station5</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+        </References>
+    </UAObject>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6008" BrowseName="1:emergency_stop" ParentNodeId="ns=1;i=5001" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>emergency_stop</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5001</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."emergency_stop"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Byte" NodeId="ns=1;i=6009" BrowseName="1:material" ParentNodeId="ns=1;i=5001" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>material</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5001</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."material"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6010" BrowseName="1:request" ParentNodeId="ns=1;i=5001" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>request</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5001</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."request"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6011" BrowseName="1:ack" ParentNodeId="ns=1;i=5001" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>ack</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5001</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."ack"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAObject NodeId="ns=1;i=5004" BrowseName="1:Station5_Status" ParentNodeId="i=85">
+        <DisplayName>Station5_Status</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+        </References>
+    </UAObject>
+    <UAObject NodeId="ns=1;i=5005" BrowseName="1:Station5_Control" ParentNodeId="i=85">
+        <DisplayName>Station5_Control</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+        </References>
+    </UAObject>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6020" BrowseName="1:Reset" ParentNodeId="ns=1;i=5005" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Reset</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5005</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Reset_S5"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6021" BrowseName="1:Start" ParentNodeId="ns=1;i=5005" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Start</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5005</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Start_S5"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6022" BrowseName="1:Emergency_Stop" ParentNodeId="ns=1;i=5005" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Emergency_Stop</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5005</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Emergency_Stop_S5"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAObject NodeId="ns=1;i=5006" BrowseName="1:Station6_Status" ParentNodeId="i=85">
+        <DisplayName>Station6_Status</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+        </References>
+    </UAObject>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6024" BrowseName="1:Error_S6" ParentNodeId="ns=1;i=5006" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Error_S6</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5006</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Error_S6"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6025" BrowseName="1:Running_S6" ParentNodeId="ns=1;i=5006" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Running_S6</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5006</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Running_S6"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6026" BrowseName="1:Emergency_S6" ParentNodeId="ns=1;i=5006" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Emergency_S6</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5006</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Emergency_S6"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6027" BrowseName="1:Emergency_S5" ParentNodeId="ns=1;i=5004" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Emergency_S5</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Emergency_S5"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6028" BrowseName="1:Error_S5" ParentNodeId="ns=1;i=5004" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Error_S5</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Error_S5"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6029" BrowseName="1:Running_S5" ParentNodeId="ns=1;i=5004" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>Running_S5</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5004</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"ServerVariables_DB"."Running_S5"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+</UANodeSet>
