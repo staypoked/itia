@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UANodeSet LastModified="2021-06-16T15:29:17.488Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<UANodeSet LastModified="2021-06-18T18:48:19.214Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <NamespaceUris>
         <Uri>http://itia_target23</Uri>
     </NamespaceUris>
@@ -23,7 +23,7 @@
             <si:Generator Product="SiOME" Edition="Standard" Version="2.2.0"/>
         </Extension>
         <Extension>
-            <si:GeneratorExtension Hash="4fca35b82ab782a71495e2589316d248"/>
+            <si:GeneratorExtension Hash="a402b4d75fd7f6fe3064e0567c0e8698"/>
         </Extension>
     </Extensions>
     <UAObject SymbolicName="http___itia_target23" NodeId="ns=1;i=5000" BrowseName="1:http://itia_target23" ParentNodeId="i=11715">
