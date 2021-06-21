@@ -1,0 +1,51 @@
+"Nr";"Occurrence";"Message";"Type";"ParentNr"
+"1";"21.6.2021, 11:56:57.737";"Logging started for SiOME 2.2.0 to C:\Users\a01425647\Desktop\itia-main\itia\OPC UA Modeling Editor (SiOME)-20210605\109755133_SiOME_CODE_V22\log\SiOME_2.2.0_log_20210602_115657.csv" ;"LOG";""
+"2";"21.6.2021, 11:57:00.880";"Added Opc.Ua.NodeSet2.xml Version 1.04.7" ;"LOG";""
+"3";"21.6.2021, 11:57:34.649";"Check publication date of required models" ;"LOG";""
+"4";"21.6.2021, 11:57:34.652";"All required models are up to date" ;"INFO";"3"
+"5";"21.6.2021, 11:57:35.225";"Imported model from file C:\Users\a01425647\Desktop\itia\OPC UA Modeling Editor (SiOME)-20210605\SiOME_nodeset_dbvar.xml" ;"LOG";""
+"6";"21.6.2021, 11:57:35.227";"Added namespace: http://itia_target23" ;"INFO";"5"
+"7";"21.6.2021, 11:57:35.228";"Number of nodes added: 26" ;"INFO";"5"
+"8";"21.6.2021, 11:57:35.231";"Schema validation passed. XML was checked against UANodeSet.xsd and Types.xsd (V1.04.7)." ;"INFO";"5"
+"9";"21.6.2021, 11:57:35.234";"C:\Users\a01425647\Desktop\itia\OPC UA Modeling Editor (SiOME)-20210605\SiOME_nodeset_dbvar.xml: Hash validation failed. File was manipulated" ;"WARNING";"5"
+"10";"21.6.2021, 11:58:01.318";"Attached to  project C:\Users\a01425647\Desktop\itia-main\itia\target56\Template_ITIA2021.ap15_1" ;"LOG";""
+"11";"21.6.2021, 11:58:14.583";"Selected PLC: Target_56_PLC" ;"LOG";""
+"12";"21.6.2021, 11:58:14.789";"Catalog information: name: Target_56_PLC, short designation: CPU 1513-1 PN, article number: 6ES7 513-1AL02-0AB0, firmware version: V2.6" ;"INFO";""
+"13";"21.6.2021, 11:59:14.781";"Added new Variable with name 1:slide1counter to namespace
+                    1" ;"LOG";""
+"14";"21.6.2021, 11:59:14.786";"Details: Reference: ReferenceType=Organizes, TargetNode=ns=1;i=6012, Name=1:slide1counter, NodeClass=Variable, TypeDefinition=BaseDataVariableType, ModellingRule=NoModellingRule, DataType=UInt16" ;"LOG";"13"
+"15";"21.6.2021, 11:59:39.811";"Added new Variable with name 1:slide2counter to namespace
+                    1" ;"LOG";""
+"16";"21.6.2021, 11:59:39.814";"Details: Reference: ReferenceType=Organizes, TargetNode=ns=1;i=6013, Name=1:slide2counter, NodeClass=Variable, TypeDefinition=BaseDataVariableType, ModellingRule=NoModellingRule, DataType=UInt16" ;"LOG";"15"
+"17";"21.6.2021, 11:59:52.227";"Added new Variable with name 1:slide3counter to namespace
+                    1" ;"LOG";""
+"18";"21.6.2021, 11:59:52.230";"Details: Reference: ReferenceType=Organizes, TargetNode=ns=1;i=6014, Name=1:slide3counter, NodeClass=Variable, TypeDefinition=BaseDataVariableType, ModellingRule=NoModellingRule, DataType=UInt16" ;"LOG";"17"
+"19";"21.6.2021, 11:59:55.830";"Dragged Variable slide1counter  (UInt) to
+            1:slide1counter " ;"LOG";""
+"20";"21.6.2021, 11:59:55.833";"Details: Dragged
+            Variable with complete path
+            Static\slide1counter\ to
+            1:slide1counter with nodeId
+            ns=1;i=6012" ;"INFO";"19"
+"21";"21.6.2021, 11:59:55.834";"Mapping conflicts" ;"INFO";"20"
+"22";"21.6.2021, 11:59:55.837";"No conflicts found" ;"INFO";"21"
+"23";"21.6.2021, 11:59:58.931";"Dragged Variable slide2counter  (UInt) to
+            1:slide2counter " ;"LOG";""
+"24";"21.6.2021, 11:59:58.934";"Details: Dragged
+            Variable with complete path
+            Static\slide2counter\ to
+            1:slide2counter with nodeId
+            ns=1;i=6013" ;"INFO";"23"
+"25";"21.6.2021, 11:59:58.937";"Mapping conflicts" ;"INFO";"24"
+"26";"21.6.2021, 11:59:58.939";"No conflicts found" ;"INFO";"25"
+"27";"21.6.2021, 12:00:01.460";"Dragged Variable slide3counter  (UInt) to
+            1:slide3counter " ;"LOG";""
+"28";"21.6.2021, 12:00:01.463";"Details: Dragged
+            Variable with complete path
+            Static\slide3counter\ to
+            1:slide3counter with nodeId
+            ns=1;i=6014" ;"INFO";"27"
+"29";"21.6.2021, 12:00:01.466";"Mapping conflicts" ;"INFO";"28"
+"30";"21.6.2021, 12:00:01.468";"No conflicts found" ;"INFO";"29"
+"31";"21.6.2021, 12:00:13.578";"Saved current project to C:\Users\a01425647\Desktop\itia\OPC UA Modeling Editor (SiOME)-20210605\SiOME_nodeset_dbvar.xml with extensions , values and without typeDictionary " ;"INFO";""
+"32";"21.6.2021, 12:06:20.884";"Settings saved successfully!" ;"LOG";""
