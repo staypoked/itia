@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UANodeSet LastModified="2021-06-18T18:48:19.214Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<UANodeSet LastModified="2021-06-26T13:44:56.909Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <NamespaceUris>
         <Uri>http://itia_target23</Uri>
     </NamespaceUris>
@@ -11,6 +11,7 @@
     <Aliases>
         <Alias Alias="Boolean">i=1</Alias>
         <Alias Alias="Byte">i=3</Alias>
+        <Alias Alias="UInt16">i=5</Alias>
         <Alias Alias="DateTime">i=13</Alias>
         <Alias Alias="String">i=12</Alias>
         <Alias Alias="HasComponent">i=47</Alias>
@@ -23,7 +24,7 @@
             <si:Generator Product="SiOME" Edition="Standard" Version="2.2.0"/>
         </Extension>
         <Extension>
-            <si:GeneratorExtension Hash="a402b4d75fd7f6fe3064e0567c0e8698"/>
+            <si:GeneratorExtension Hash="51850cc9b7f52333421cb920f726c164"/>
         </Extension>
     </Extensions>
     <UAObject SymbolicName="http___itia_target23" NodeId="ns=1;i=5000" BrowseName="1:http://itia_target23" ParentNodeId="i=11715">
@@ -279,6 +280,61 @@
         <Extensions>
             <Extension>
                 <si:VariableMapping>"ServerVariables_DB"."Running_S5"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAObject NodeId="ns=1;i=5002" BrowseName="1:Station6_Control" ParentNodeId="i=85">
+        <DisplayName>Station6_Control</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=58</Reference>
+        </References>
+    </UAObject>
+    <UAVariable DataType="Boolean" NodeId="ns=1;i=6012" BrowseName="1:slideCounterReset" ParentNodeId="ns=1;i=5002" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>slideCounterReset</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5002</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"Station6_DB"."slideCounterReset"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="UInt16" NodeId="ns=1;i=6017" BrowseName="1:slide1counter" ParentNodeId="ns=1;i=5006" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>slide1counter</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5006</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"Station6_DB"."slide1counter"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="UInt16" NodeId="ns=1;i=6018" BrowseName="1:slide2counter" ParentNodeId="ns=1;i=5006" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>slide2counter</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5006</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"Station6_DB"."slide2counter"</si:VariableMapping>
+            </Extension>
+        </Extensions>
+    </UAVariable>
+    <UAVariable DataType="UInt16" NodeId="ns=1;i=6019" BrowseName="1:slide3counter" ParentNodeId="ns=1;i=5006" UserAccessLevel="3" AccessLevel="3">
+        <DisplayName>slide3counter</DisplayName>
+        <References>
+            <Reference ReferenceType="Organizes" IsForward="false">ns=1;i=5006</Reference>
+            <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+        </References>
+        <Extensions>
+            <Extension>
+                <si:VariableMapping>"Station6_DB"."slide3counter"</si:VariableMapping>
             </Extension>
         </Extensions>
     </UAVariable>
